@@ -1,13 +1,11 @@
 <div class="container">
   <div class="jumbotron text-center">
-    <h1>Look dad this is {{title}}</h1>
+    <h1>Look! this is {{title}}</h1>
     <input type="text" [(ngModel)]="name">
     <h3>{{name}}</h3>
   </div>
-  <div class="section">
-    <div class="row">
-      <app-warning-alert class="col-6"></app-warning-alert>
-      <app-success-alert class="col-6"></app-success-alert>
-    </div>
+  <div class="row">
+    <app-warning-alert class="col-lg-6"></app-warning-alert>
+    <app-success-alert class="col-lg-6"></app-success-alert>
   </div>
 </div>

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* /* HEX */
+/* $color1: #EDE7DC;
+$color2: #CE7A5F;
+$color3: #8CD1CE;
+$color4: #E2B84E;
+$color5: #97BC91;
+$color6: #291E23; */
+body{
+  background-color: #EDE7DC;
+  color: #291E23;
+}
+
+.jumbotron{
+  background-color: #8CD1CE;
+}
